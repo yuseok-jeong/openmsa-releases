@@ -47,7 +47,6 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 
 ### Supported Catalog Services
 
-```
 | Catalog Name | Default | Node-Selector | Description |
 |-------------|---------|---------------|-------------|
 | Jenkins | False | - | CI/CD automation server |
@@ -69,7 +68,7 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 | Istio | False | - | Service mesh |
 | Velero | False | - | Backup and migration |
 | Neuvector | False | - | Container security |
-```
+
 
 ### Kubernetes Variants
 - RKE2
