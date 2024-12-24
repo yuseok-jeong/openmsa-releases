@@ -110,10 +110,20 @@ The installation process includes:
 
 ### System Configuration
 - Configure server information based on Node Configuration Rules
+ <img src="https://github.com/user-attachments/assets/b958ffc8-0409-4cf4-886c-484560491fcd" alt="Example Image" width="150">
+
+
 - Set up Ansible connectivity
- <img src="https://github.com/user-attachments/assets/e1e90524-ee7b-4d98-946f-5cafe4e85d25" alt="Example Image" width="300">
+ <img src="https://github.com/user-attachments/assets/e1e90524-ee7b-4d98-946f-5cafe4e85d25" alt="Example Image" width="250">
+
+
 - Select Kubernetes deployment type
+
+ <img src="https://github.com/user-attachments/assets/416b8e93-54e8-4661-bb7e-986cbfd7a890" alt="Example Image" width="250">
+
+
 - Choose desired catalog options
+<img src="https://github.com/user-attachments/assets/13cb2d7b-1d1c-4f42-8196-1a06aa54aa34" alt="Example Image" width="150">
 
 ## Post-Installation
 
