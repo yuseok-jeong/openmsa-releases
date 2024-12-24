@@ -36,13 +36,14 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 
 ### Node Configuration Rules
 
-```
+
 | Node Type     | Role          | Label         | Description |
 |--------------|---------------|---------------|-------------|
 | Master Node   | control       | control=true  | Primary control plane node |
 | Worker Node   | control-plane | master=true   | Additional control plane nodes |
 | Control Node  | worker        | worker=true   | Worker nodes for workload execution |
-```
+
+
 
 ### Supported Catalog Services
 
