@@ -21,6 +21,9 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 - **Ansible Scripts**: Orchestrates installation based on OS and Kubernetes variants
 - **Configuration Directory**: `/etc/openmsa` contains modifiable Ansible playbooks
 
+### Architecture Diagram
+[System architecture diagram placeholder]
+
 ## System Requirements
 
 - Minimum of 3 nodes
@@ -102,7 +105,7 @@ openmsa
 
 ### Installation Steps
 
-The installation process includes:
+The pre-installation process includes:
 1. OpenMSA binary deployment
 2. Ansible configuration
 3. OpenSSH setup (required for Ansible automation)
@@ -124,6 +127,10 @@ The installation process includes:
 
 - Choose desired catalog options
 <img src="https://github.com/user-attachments/assets/13cb2d7b-1d1c-4f42-8196-1a06aa54aa34" alt="Example Image" width="150">
+
+### Deploy Cluster
+- Deploy Your cluster and catalog services after system configuration
+<img src="https://github.com/user-attachments/assets/321d9b36-f55b-49cd-937a-33d83c880216" alt="Example Image" width="250">
 
 ## Post-Installation
 
@@ -159,3 +166,7 @@ The system automatically manages:
 - Operating system-specific configurations
 - Kubernetes variant deployment
 - Catalog service installation and configuration
+
+## Troubleshooting
+Known Issues 
+1. ~~~
