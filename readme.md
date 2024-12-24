@@ -109,8 +109,10 @@ The installation process includes:
 4. Python installation (Ansible dependency)
 
 ### System Configuration
-- Configure server information
+- Configure server information based on Node Configuration Rules
 - Set up Ansible connectivity
+ <img src="https://github.com/user-attachments/assets/e1e90524-ee7b-4d98-946f-5cafe4e85d25" alt="Example Image" width="300">
+
 - Select Kubernetes deployment type
 - Choose desired catalog options
 
