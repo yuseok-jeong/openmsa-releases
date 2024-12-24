@@ -22,7 +22,7 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 - **Configuration Directory**: `/etc/openmsa` contains modifiable Ansible playbooks
 
 ### Architecture Diagram
-[System architecture diagram placeholder]
+<img src="https://github.com/user-attachments/assets/ccb7f367-6335-4bf2-a995-4e14e26d9dd7" alt="Example Image" width="800">
 
 ## System Requirements
 
