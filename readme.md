@@ -63,7 +63,7 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 | Rancher Dashboard | True | - | Kubernetes management UI |
 | Jaeger | False | - | Distributed tracing |
 | MySQL | False | db=true | Relational database |
-| MariaDB | False | db=true | MySQL fork database |
+| MariaDB | False | db=true | Relational database |
 | PostgreSQL-HA | False | db=true | HA PostgreSQL cluster |
 | Redis-cluster | False | db=true | In-memory data store |
 | Kafka | False | - | Event streaming platform |
