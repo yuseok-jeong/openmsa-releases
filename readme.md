@@ -1,4 +1,9 @@
+![image](https://github.com/user-attachments/assets/85c9307b-6f95-4c91-adcf-fa2caf176c75)
+
 # OpenMSA
+
+![image](https://github.com/user-attachments/assets/a1ffb8f0-62b0-42be-ad33-2f2aecbe5116)
+
 
 OpenMSA is an all-in-one cluster management solution that supports multiple Kubernetes distributions (RKE2, Kubeadm, K3S) with multi-master configuration and load balancing, while automating catalog service deployment.
 
@@ -39,9 +44,9 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 
 | Node Type     | Role          | Label         | Description |
 |--------------|---------------|---------------|-------------|
-| Master Node   | control       | control=true  | Primary control plane node |
-| Worker Node   | control-plane | master=true   | Additional control plane nodes |
-| Control Node  | worker        | worker=true   | Worker nodes for workload execution |
+| Master Node   | control       | master=true  | control plane nodes |
+| Worker Node   | control-plane | worker=true   | Worker nodes for workload execution  |
+| Control Node  | worker        | control=true   | MGMT(control) node for Loadbalancer and ansible Tower |
 
 
 
@@ -49,6 +54,7 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 
 | Catalog Name | Default | Node-Selector | Description |
 |-------------|---------|---------------|-------------|
+| ArgoCD | False | - | CI/CD automation server |
 | Jenkins | False | - | CI/CD automation server |
 | Gitlab | False | - | Source code management |
 | Keycloak | False | - | Identity management |
@@ -144,10 +150,6 @@ The system automatically manages:
 - Operating system-specific configurations
 - Kubernetes variant deployment
 - Catalog service installation and configuration
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
