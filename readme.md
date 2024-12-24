@@ -44,9 +44,9 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 
 | Node Type     | Role          | Label         | Description |
 |--------------|---------------|---------------|-------------|
-| MGMT Node  | worker        | control=true   | MGMT(control) node for Loadbalancer and ansible Tower |
-| Master Node   | control       | master=true  | control plane nodes |
-| Worker Node   | control-plane | worker=true   | Worker nodes for workload execution  |
+| MGMT Node  | control        | control=true   | MGMT(control) node for Loadbalancer and ansible Tower |
+| Master Node   | control-plane       | master=true  | Master(control plane) nodes |
+| Worker Node   | worker | worker=true   | Worker nodes for workload execution  |
 
 
 
