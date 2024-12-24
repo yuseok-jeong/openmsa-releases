@@ -144,6 +144,7 @@ k9s
 
 ### Automated Operations
 The system automatically manages:
+- Ansible Setup and Connection
 - Operating system-specific configurations
 - Kubernetes variant deployment
 - Catalog service installation and configuration
