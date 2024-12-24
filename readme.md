@@ -1,8 +1,6 @@
-![image](https://github.com/user-attachments/assets/85c9307b-6f95-4c91-adcf-fa2caf176c75)
-
 # OpenMSA
 
-![image](https://github.com/user-attachments/assets/a1ffb8f0-62b0-42be-ad33-2f2aecbe5116)
+<img src="https://github.com/user-attachments/assets/a1ffb8f0-62b0-42be-ad33-2f2aecbe5116" alt="Example Image" width="500">
 
 
 OpenMSA is an all-in-one cluster management solution that supports multiple Kubernetes distributions (RKE2, Kubeadm, K3S) with multi-master configuration and load balancing, while automating catalog service deployment.
