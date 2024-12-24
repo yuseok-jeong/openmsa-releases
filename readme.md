@@ -42,9 +42,9 @@ OpenMSA is an all-in-one cluster management solution that supports multiple Kube
 
 | Node Type     | Role          | Label         | Description |
 |--------------|---------------|---------------|-------------|
+| MGMT Node  | worker        | control=true   | MGMT(control) node for Loadbalancer and ansible Tower |
 | Master Node   | control       | master=true  | control plane nodes |
 | Worker Node   | control-plane | worker=true   | Worker nodes for workload execution  |
-| Control Node  | worker        | control=true   | MGMT(control) node for Loadbalancer and ansible Tower |
 
 
 
@@ -133,7 +133,7 @@ k9s
 ### Accessing Catalog Services
 
 1. Update hosts file:
-   - Edit `/etc/hosts` to include ingress IP addresses
+   - Edit `/etc/hosts` to include MGMT node's IP address
 2. Access catalog UIs through configured ingress addresses
 3. Verify each deployed service is operational
 
