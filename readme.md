@@ -1,4 +1,5 @@
 # OpenMSA
+Click on the image below to watch the video on YouTube
 
 <a href="https://youtu.be/EZhSwWLVGWg?si=TFXeazFOu5KoonOw">
   <img src="https://github.com/user-attachments/assets/a1ffb8f0-62b0-42be-ad33-2f2aecbe5116" alt="Example Image" width="400">
